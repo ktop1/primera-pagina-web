@@ -1,0 +1,136 @@
+/* medias query */
+#cajas .caja {
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  header #marca,
+  header nav,
+  header nav li,
+  #boletin h1,
+  #boletin form,
+  #cajas .caja,
+  article#main-col,
+  aside#lateral {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+  /* #cajas  {
+    height: 600px;
+  } */
+
+  footer {
+    margin-top: 20px;
+    padding: 13px;
+  }
+
+  header {
+    padding-bottom: 20px;
+  }
+
+  #boletin h1 {
+    margin-top: 40px;
+  }
+
+  #boletin button {
+    display: block;
+    width: 100%;
+  }
+
+  #boletin form input[type="email"] {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  input,
+  textarea {
+    width: 98%;
+  }
+}
+
+/* nosotros */
+
+@media screen and (max-width: 768px) {
+  .cont {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+  }
+  .content-section {
+    float: none;
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  .imagen-section {
+    float: none;
+    width: 100%;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .content-section .titulo {
+    text-align: center;
+    font-size: 1.7rem;
+  }
+  .content-section .content .boton {
+    text-align: center;
+  }
+  .content-section .content .boton a {
+    padding: 9px 30px;
+  }
+}
+
+@media screen and (max-width: 1296px) {
+  .cont-titulo {
+    line-height: 1.1;
+  }
+  #cabecera p {
+    text-align: center;
+    line-height: 1.1;
+  }
+}
+
+@media screen and (max-width: 917px) {
+  #cajas {
+  }
+ 
+}
+
+@media screen and (max-width: 929px) {
+    #boletin .contenedor{
+        width: 70%;
+        margin: 0 auto;
+        float: none;
+        
+    }
+
+    #boletin h1{
+        margin: 0 auto;
+        padding: 0 auto;
+        text-align: center;
+        float: none;
+    }
+
+    #boletin form{
+        margin: 0 auto;
+        padding: 0 auto;
+        float: none;
+        text-align: center;
+    }
+
+    #boletin button {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 627px) {
+  .contenedor ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+}
